@@ -1,0 +1,73 @@
+#header{
+    display: inline-block;
+    background-color: gray;
+    align-items: center;
+    padding: 6px;
+    padding-left: 75px;
+    text-align: center;
+    width: 94%;
+}
+#header p{
+    font-size: 22px;
+}
+#header button{
+    border:none;
+    width: 68px;
+    height: 63px;
+    background-repeat: no-repeat;
+}
+.leftButton{
+    background:url("icons/left.png");
+}
+.rightButton{
+    background:url("icons/right.png");
+}
+.closebutton{
+    background:url("icons/close.png");
+}
+.homeButton{
+    background:url("icons/home.png");
+}
+#formContainer{
+    width: 240px;
+    height:0px;
+}
+label{
+    display: inline-block;
+    width: 76px;
+    text-align: right;
+}
+input{
+    margin-left:20px;
+}
+#submit{
+    width: 80px;
+    height: 20px;
+}
+
+#CardContainer{
+    margin-left:280px;
+}
+.card{
+    width: 400px;
+    height: 200px;
+    margin-left:350px;
+    border: 3px solid black;
+    margin-top: 10px;
+}
+.name{
+    font-size: 28px;
+    width:325px;
+    text-align: center;
+    padding-left: 30px;
+}
+.click{
+    text-align: center;
+    margin-left: 85px;
+    width: 150px;
+}
+.discription{
+    display:none;
+    text-align: center;
+    font-size: 24px;
+}
